@@ -1,7 +1,6 @@
 @font-face{
 	font-family:"CV";
-	src: url('CV.eot'); /* IE9 Compat Modes */
- 	src: url('CV.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	src: url('CV.eot'),
 		 url('CV.woff') format('woff'),
 		 url('CV.woff2') format('woff2')
 		 
@@ -83,9 +82,11 @@ p{
 	font-family:CV;
 }
 
+
 li{
 	font-family:CV;
 	color:white
+	line-height: .9em;
 }
 
 
