@@ -15,6 +15,7 @@
 	font-size: 10em;
 	margin: 1%;
 	line-height: .9em;
+	margin-bottom: .5em;
 
 }
 
@@ -32,6 +33,21 @@ body {
 	padding: 10%;
 	background-color: none;
 	float: center;
+	margin-bottom: 10em;
+
+}
+
+.menu{
+	width: 80vw;
+	height: 700px;
+	margin: 1%;
+	padding: 0%;
+	background-color: none;
+	float: center;
+}
+
+.caption{
+	margin-bottom: 10em;
 }
 
 .box{
@@ -40,8 +56,15 @@ body {
 	padding: 0 1%;
 	background-color: none;
 	float: left;
+}
 
+.list{
+	border-top: 1px solid grey;
+	margin-bottom: 3em;
+}
 
+.article{
+	margin-bottom: 10em;
 }
 
 h1{
@@ -50,7 +73,8 @@ h1{
 	font-family: CV;
 	font-size: 3em;
 	letter-spacing:1px;
-	;
+	margin-bottom: .05em;
+	margin-top:.05em;
 }
 
 h2{
@@ -66,8 +90,8 @@ h3{
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	color: white;
-
-}
+	font-size: .5em;
+	line-height: 18px;}
 
 summary{
 	font-weight: normal;
@@ -78,14 +102,21 @@ summary{
 }
 
 p{
-	color: white;
+	color: grey;
 	font-family:CV;
+	letter-spacing: 1.7px;
+	font-size: 1.4em;
+	line-height: 1.5em;
+	margin:0;
 }
 
+ol.a {list-style-type: lower-roman;
+	line-height: 2em;
+}
 
 li{
 	font-family:CV;
-	color:white
+	color:white;
 	line-height: .9em;
 }
 
@@ -98,15 +129,17 @@ a{
 }
 
 
-@media screen and (max-width: 800px){
+
+@media screen and (max-width: 700px){
 
 #super {
 	color: pink;
 	font-weight: normal;
 	font-family: CV;
-	font-size: 4em;
+	font-size: 2em;
 	margin: 1%;
 	line-height: .9em;
+	margin-bottom: .5em;
 }
 
 body {
@@ -127,7 +160,7 @@ h1{
 	color: white;
 	font-weight: normal;
 	font-family: CV;
-	font-size: 2.3em;
+	font-size: 2em;
 	letter-spacing:1px;
 }
 
@@ -136,6 +169,13 @@ h2{
 	font-family:CV;
 	color:white;
 	font-size: 1.6em
+}
+
+p{
+	color: grey;
+	font-family:CV;
+	letter-spacing: 1.7px;
+	font-size: .9em;
 }
 
 .box{
