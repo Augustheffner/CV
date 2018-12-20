@@ -1,6 +1,7 @@
 @font-face{
 	font-family:"CV";
-	src: url("fonts/CV.woff") format('woff');
+	src: url('CV.woff') format('woff'),
+		 url('CV.woff2') format('woff2')
 }
 
 
@@ -24,6 +25,7 @@ body {
 
 .intro{
 	width: 80vw;
+	height: 700px;
 	margin: 1%;
 	padding: 10%;
 	background-color: none;
