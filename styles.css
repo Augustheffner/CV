@@ -4,29 +4,53 @@
 }
 
 #super {
-	color: black;
+	color: pink;
 	font-weight: normal;
 	font-family: CV;
-	font-size: 12em;
+	font-size: 10em;
+	margin: 1%;
+	line-height: .9em;
 
 }
 
 body {
-	background-color: #FFF2FC;
+	background-color: #281E22;
+	width: 90vw;
+	margin; 0 auto;
 	
 }
 
+.intro{
+	width: 80vw;
+	margin: 1%;
+	padding: 10%;
+	background-color: none;
+	float: center;
+}
+
+.box{
+	width: 50vw;
+	margin: 0;
+	padding: 0 1%;
+	background-color: none;
+	float: left;
+
+
+}
+
 h1{
-	color: black;
+	color: white;
 	font-weight: normal;
 	font-family: CV;
 	font-size: 3em;
+	letter-spacing:1px;
 	;
 }
 
 h2{
 	font-weight: normal;
 	font-family:CV;
+	color:white;
 }
 
 h3{
@@ -34,6 +58,7 @@ h3{
 	font-family:CV;
 	text-transform: uppercase;
 	letter-spacing: 3px;
+	color: white;
 
 }
 
@@ -42,21 +67,23 @@ summary{
 	font-family:CV;
 	text-transform: uppercase;
 	letter-spacing: 3px;
+	color: white;
 }
 
 p{
-	color: black;
+	color: white;
 	font-family:CV;
 }
 
 li{
 	font-family:CV;
+	color:white
 }
 
 
 a{
 	font-weight: normal;
-	color: black;
+	color: pink;
 	text-decoration: none;
 	
 }
