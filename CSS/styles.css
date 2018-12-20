@@ -1,7 +1,7 @@
 @font-face{
 	font-family:'CV';
-	src: url('CV.woff2') format('woff2'),
-		 url('CV.woff') format('woff');
+	src: url('../fonts/CV.woff2') format('woff2'),
+		 url('../fonts/CV.woff') format('woff');
 		 
 }
 
