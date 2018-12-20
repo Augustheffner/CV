@@ -64,6 +64,13 @@ body {
 	background-color: black;
 }
 
+img {
+	width: 90vw;
+	margin-left: -5vw;
+	margin-bottom: 1em;
+	filter: grayscale(100%);
+}
+
 .intro{
 	width: 80vw;
 	height: 700px;
@@ -88,6 +95,13 @@ body {
 
 .caption{
 	margin-bottom: 10em;
+	font-weight: normal;
+	font-family:CV;
+	letter-spacing: 3px;
+	color: white;
+	font-size: .5em;
+	line-height: 18px;
+
 }
 
 .box{
@@ -132,6 +146,8 @@ h3{
 	color: white;
 	font-size: .5em;
 	line-height: 18px;}
+
+
 
 summary{
 	font-weight: normal;
@@ -203,6 +219,11 @@ body {
 	width: 90vw;
 	font-family:CV;
 	margin; 0 auto;
+}
+
+img {
+	width: 100vw;
+	margin-left: -10vw;
 }
 
 .intro{
