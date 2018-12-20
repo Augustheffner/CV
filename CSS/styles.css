@@ -234,6 +234,16 @@ img {
 	float: center;
 }
 
+.caption{
+	margin-bottom: 10em;
+	font-weight: normal;
+	font-family:CV;
+	letter-spacing: 3px;
+	color: white;
+	font-size: .7em;
+	line-height: 18px;
+}
+
 h1{
 	color: white;
 	font-weight: normal;
