@@ -1,6 +1,7 @@
 @font-face{
-	font-family:CV;
-	src: url('fonts/First-Regular.woff') format('woff');
+	font-family:'CV';
+	src: url('CV.woff2') format('woff2'),
+		 url('CV.woff') format('woff');
 		 
 }
 
