@@ -6,7 +6,6 @@
 }
 
 
-
 #super {
 	color: #36BE52;
 	font-weight: normal;
@@ -15,14 +14,26 @@
 	margin: 1%;
 	line-height: .9em;
 	margin-bottom: .3em;
+}
+
+#superhome {
+	color: #F9EB40;
+	font-weight: normal;
+	font-family: CV;
+	font-size: 10em;
+	margin: 1%;
+	line-height: 1em;
+	margin-bottom: .3em;
+	margin-top: 1em;
 
 }
+
 #grey{
 	color:#BEBEBE;
 }
 
 #orange{
-	color:#F9EB40;
+	color:#F95A30;
 }
 
 #green{
@@ -37,11 +48,20 @@
 	color:#FFD5D5;
 }
 
+
+#yellow{
+	color:#F9EB40;
+}
+
+
+#blue{
+	color:#4FAAB0;
+}
+
 body {
-	background-color: black;
 	width: 90vw;
 	margin; 0 auto;
-	
+	background-color: black;
 }
 
 .intro{
@@ -79,7 +99,7 @@ body {
 }
 
 .list{
-	border-top: 1px solid grey;
+	border-top: 1px solid #686868;
 	margin-bottom: 3em;
 }
 
@@ -144,9 +164,13 @@ li{
 
 a{
 	font-weight: normal;
-	color: #F9EB40;
+	color: white;
 	text-decoration: none;
 	
+}
+
+a.hover{
+	color: grey;
 }
 
 
@@ -154,14 +178,25 @@ a{
 @media screen and (max-width: 700px){
 
 #super {
-	color: pink;
+	color: #36BE52;
 	font-weight: normal;
 	font-family: CV;
-	font-size: 2em;
+	font-size: 4em;
 	margin: 1%;
 	line-height: .9em;
-	margin-bottom: 0em;
+	margin-bottom: 0.5em;
 }
+
+#superhome {
+	color: #F9EB40;
+	font-weight: normal;
+	font-family: CV;
+	font-size: 4em;
+	margin: 1%;
+	line-height: 1em;
+	margin-bottom: 0.5em;
+	margin-top: 1em;
+	}
 
 body {
 	background-color: black;
