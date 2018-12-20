@@ -71,6 +71,11 @@ img {
 	filter: grayscale(100%);
 }
 
+img:hover{
+	filter: grayscale(10%);
+}
+
+
 .intro{
 	width: 80vw;
 	height: 700px;
@@ -94,7 +99,7 @@ img {
 }
 
 .caption{
-	margin-bottom: 10em;
+	margin-bottom: 5em;
 	font-weight: normal;
 	font-family:CV;
 	letter-spacing: 3px;
@@ -165,16 +170,7 @@ p{
 	line-height: 1.5em;
 	margin:0;
 	margin-bottom: 2em;
-}
 
-ol.a {list-style-type: lower-roman;
-	line-height: 2em;
-}
-
-li{
-	font-family:CV;
-	color:white;
-	line-height: .9em;
 }
 
 
@@ -185,10 +181,9 @@ a{
 	
 }
 
-a.hover{
-	color: grey;
+a:hover{
+	border-bottom: 1px;
 }
-
 
 
 @media screen and (max-width: 700px){
@@ -235,7 +230,7 @@ img {
 }
 
 .caption{
-	margin-bottom: 10em;
+	margin-bottom: 6em;
 	font-weight: normal;
 	font-family:CV;
 	letter-spacing: 3px;
