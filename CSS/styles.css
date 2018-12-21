@@ -90,7 +90,7 @@ body {
 
 img {
 	margin-bottom: 1em;
-	filter: grayscale(100%);
+	filter: grayscale(0%);
 	
 }
 
