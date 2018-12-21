@@ -282,7 +282,7 @@ img {
 }
 
 .intro{
-	width: 80vw;
+	width: 90vw;
 	margin: 1%;
 	padding: 3%;
 	background-color: none;
@@ -296,11 +296,12 @@ img {
 	letter-spacing: 3px;
 	font-size: .7em;
 	line-height: 18px;
-	padding-right: 7em;
+	padding-right: 0em;
 }
 
 .deck{
 	padding-right: 0vw;
+}
 
 h1{
 	color: white;
