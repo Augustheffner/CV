@@ -16,8 +16,18 @@
 	margin-bottom: .3em;
 }
 
+#super2 {
+	font-weight: normal;
+	font-family: CV;
+	font-size: 7em;
+	margin: 1%;
+	line-height: .95em;
+	margin-bottom: .3em;
+
+}
+
 #superhome {
-	color: #F9EB40;
+	color: #EFB6B6;
 	font-weight: normal;
 	font-family: CV;
 	font-size: 10em;
@@ -37,7 +47,7 @@
 }
 
 #green{
-	color:#36BE52;
+	color:#66A773;
 }
 
 #purple{
@@ -45,9 +55,12 @@
 }
 
 #peach{
-	color:#FFD5D5;
+	color:#EFB6B6;
 }
 
+#brown{
+	color:#B57931;
+}
 
 #yellow{
 	color:#F9EB40;
@@ -58,8 +71,16 @@
 	color:#4FAAB0;
 }
 
+#mono{
+	color:#BEBEBE;
+	font-family: monospace;
+	letter-spacing: .3px;
+	font-weight: lighter;
+
+}
+
 body {
-	width: 90vw;
+	width: 70vw;
 	margin; 0 auto;
 	background-color: black;
 }
@@ -106,11 +127,28 @@ img:hover{
 	font-weight: normal;
 	font-family:CV;
 	letter-spacing: 3px;
-	color: white;
 	font-size: .5em;
 	line-height: 18px;
+	padding-right: 30vw;
 
 }
+
+.deck{
+	padding-right: 30vw;
+}
+
+.preformatted{
+	margin-bottom: 5em;
+	letter-spacing: 300px;
+	font-size: 1em;
+	line-height: 9;
+	text-align: center;
+	padding-top: 1.4em;
+	border-top: 1px dashed #686868;
+	border-bottom: 1px dashed #686868;
+
+}
+
 
 .box{
 	width: 50vw;
@@ -123,6 +161,7 @@ img:hover{
 .list{
 	border-top: 1px solid #686868;
 	margin-bottom: 3em;
+	padding-top: 1em;
 }
 
 .article{
@@ -130,13 +169,17 @@ img:hover{
 }
 
 h1{
-	color: white;
-	font-weight: normal;
+	color: #FCFCFC;
 	font-family: CV;
-	font-size: 3em;
+	font-weight: 100;
+	font-size: 2em;
 	letter-spacing:1px;
 	margin-bottom: .05em;
-	margin-top:.05em;
+	margin-top:.09em;
+}
+
+.menuitem{
+	margin-top:1em;
 }
 
 h2{
@@ -168,7 +211,7 @@ summary{
 p{
 	color: #BEBEBE;
 	font-family:CV;
-	letter-spacing: 1.4px;
+	letter-spacing: 1px;
 	font-size: 1.4em;
 	line-height: 1.5em;
 	margin:0;
@@ -180,8 +223,7 @@ p{
 a{
 	font-weight: normal;
 	color: white;
-	text-decoration: none;
-	
+	text-decoration: none;	
 }
 
 a:hover{
@@ -201,8 +243,17 @@ a:hover{
 	margin-bottom: 0.5em;
 }
 
+#super2 {
+	font-weight: normal;
+	font-family: CV;
+	font-size: 5em;
+	margin: 1%;
+	line-height: .95em;
+	margin-bottom: .3em;
+}
+
 #superhome {
-	color: #F9EB40;
+	color: #EFB6B6;
 	font-weight: normal;
 	font-family: CV;
 	font-size: 4em;
@@ -214,7 +265,7 @@ a:hover{
 
 body {
 	background-color: black;
-	width: 90vw;
+	width: 80vw;
 	font-family:CV;
 	margin; 0 auto;
 }
@@ -225,7 +276,7 @@ img {
 }
 
 .intro{
-	width: 90vw;
+	width: 80vw;
 	margin: 1%;
 	padding: 3%;
 	background-color: none;
@@ -237,31 +288,34 @@ img {
 	font-weight: normal;
 	font-family:CV;
 	letter-spacing: 3px;
-	color: white;
 	font-size: .7em;
 	line-height: 18px;
+	padding-right: 7em;
 }
+
+.deck{
+	padding-right: 0vw;
 
 h1{
 	color: white;
-	font-weight: normal;
+	font-weight: 100;
 	font-family: CV;
 	font-size: 2em;
 	letter-spacing:1px;
 }
 
 h2{
-	font-weight: normal;
+	font-weight: lighter;
 	font-family:CV;
 	color:white;
 	font-size: 1.6em
 }
 
 p{
-	color: grey;
+	color: #BEBEBE;
 	font-family:CV;
-	letter-spacing: 1.7px;
-	font-size: 1.1em;
+	letter-spacing: 1.1px;
+	font-size: 1em;
 	margin-bottom: 2em;
 }
 
